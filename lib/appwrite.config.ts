@@ -11,7 +11,7 @@ export const {
 	NEXT_PUBLIC_BUCKET_ID: BUCKET_ID,
 } = process.env;
 
-console.log(ENDPOINT, PROJECT_ID, API_KEY);
+// console.log(ENDPOINT, PROJECT_ID, API_KEY);
 
 const client = new sdk.Client();
 
